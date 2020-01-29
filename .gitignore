@@ -1,0 +1,11 @@
+node_modules/
+package-lock.json
+req.png
+.env
+
+sell-4-me.pdf
+tasks.pdf
+
+client/react-readme.md
+client/.env
+notes.md
