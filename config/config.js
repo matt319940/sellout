@@ -18,10 +18,10 @@ module.exports = {
 		"operatorsAliases": false
 	},
 	"production": {
-		"username": process.env.JAWS_USER,
-		"password": process.env.JAWS_PASS,
-		"database": process.env.JAWS_DATABASE,
-		"host": process.env.JAWS_HOST,
+		"username": "y5z4crqwnlqdzhyi",
+		"password": "ck5i1gdvr3qzdy0i",
+		"database": "n7f3xzn0aanygkvu",
+		"host": "u0zbt18wwjva9e0v.cbetxkdyhwsb.us-east-1.rds.amazonaws.com	",
 		"dialect": "mysql",
 		"operatorsAliases": false
 	}
