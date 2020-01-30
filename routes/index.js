@@ -236,8 +236,14 @@ router.get('/api/modules', (req,res) => {
 	});
 });
 
-router.use((req,res) => {
-	res.sendFile(path.join(__dirname,'../client/build/index.html'));
-});
+if (process.env.NODE_ENV === "production") {
+	router.use(function(req, res) {
+	  res.sendFile(path.join(__dirname, "../client/build/index.html"));
+	});
+  }else{
+	router.use(function(req, res) {
+	  res.sendFile(path.join(__dirname, "../client/public/index.html"));
+	});
+  }
 
 module.exports = router;
