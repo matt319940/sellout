@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Button, Card, Col, Container, ListGroup, Row } from 'react-bootstrap';
-import Header from '../Header';
+import SlimHeader from '../SlimHeader';
 import Navigator from '../Navigator'
 
 class About extends Component {
@@ -8,7 +8,7 @@ class About extends Component {
 		return (
 			<>
 				<Navigator />
-				<Header />
+				<SlimHeader />
 				<Container>
 				<Card style={{ width: '95' }}>
 					<Card.Body>

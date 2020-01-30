@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase, faIndustry, faPlusCircle, faSignOutAlt, faUserEdit } from '@fortawesome/free-solid-svg-icons';
 import './style.css';
 
-import Header from '../../Header';
+import SlimHeader from '../../SlimHeader';
 
 import AddProduct from './AddProduct';
 import Approvals from './Approvals';
@@ -92,7 +92,7 @@ class BusinessPortal extends Component {
 	render() {
 		return (
 			<>
-				<Header />
+				<SlimHeader />
 				<Container>
 					<BusinessAvatar />
 					<Row>

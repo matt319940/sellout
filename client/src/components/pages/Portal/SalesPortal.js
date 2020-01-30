@@ -3,7 +3,7 @@ import { Button, Card, Col, Container, ListGroup, Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase, faIndustry, faUserEdit, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
 import './style.css';
-import Header from '../../Header';
+import SlimHeader from '../../SlimHeader';
 import SalesProducts from './SalesProducts';
 import ChangeAccountInfoModal from '../../ChangeAccountInfoModal';
 import Modules from './Modules';
@@ -98,7 +98,7 @@ class SalesPortal extends Component {
 	render() {
 		return (
 			<>
-				<Header />
+				<SlimHeader />
 				<Container>
 					<SalesAvatar />
 					<Row>

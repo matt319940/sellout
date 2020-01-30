@@ -1,0 +1,12 @@
+.jumbotron h1 {
+    font-variant: small-caps;
+}
+
+.jumbotron-fluid {
+    padding: 1rem;
+    opacity: 0.7;
+}
+
+p.lead {
+    font-variant: small-caps;
+}
