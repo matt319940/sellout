@@ -1,8 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-
 import About from './About';
-
 import Container from '../Container';
 import Navigator from '../Navigator';
 import SignupModal from '../SignupModal';

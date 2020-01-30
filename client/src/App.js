@@ -1,9 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Particles from 'react-particles-js';
-
 import Home from './components/pages/Home'
-
+import About from './components/pages/About';
 import SalesPortal from './components/pages/Portal/SalesPortal';
 import BusinessPortal from './components/pages/Portal/BusinessPortal';
 
@@ -12,6 +11,7 @@ function App() {
 		<>
 			<Router>
 				<Route exact path='/' component={Home} />
+				<Route exact path='/about' component={About} />
 				<Route exact path='/portal/business' component={BusinessPortal} />
 				<Route exact path='/portal/sales' component={SalesPortal} />
 			</Router>
